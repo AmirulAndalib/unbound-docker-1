@@ -34,7 +34,7 @@ WORKDIR /src
 
 ARG LDNS_VERSION=1.9.2
 # https://nlnetlabs.nl/downloads/ldns/ldns-1.9.2.tar.gz.sha256
-ARG LDNS_SHA256="4ffab476e0c381f45ad948bb367e4dd6397a9b77f7dbf9a861e311d3a2b8ad86"
+ARG LDNS_SHA256="b524fa21994b6e834200ceb8c27f1b84bda5982fe35706f058196c079db94d5d"
 
 ADD https://nlnetlabs.nl/downloads/ldns/ldns-${LDNS_VERSION}.tar.gz ldns.tar.gz
 
