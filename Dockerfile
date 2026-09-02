@@ -32,9 +32,9 @@ FROM build-base AS ldns
 
 WORKDIR /src
 
-ARG LDNS_VERSION=1.8.4
-# https://nlnetlabs.nl/downloads/ldns/ldns-1.8.4.tar.gz.sha256
-ARG LDNS_SHA256="838b907594baaff1cd767e95466a7745998ae64bc74be038dccc62e2de2e4247"
+ARG LDNS_VERSION=1.9.2
+# https://nlnetlabs.nl/downloads/ldns/ldns-1.9.2.tar.gz.sha256
+ARG LDNS_SHA256="4ffab476e0c381f45ad948bb367e4dd6397a9b77f7dbf9a861e311d3a2b8ad86"
 
 ADD https://nlnetlabs.nl/downloads/ldns/ldns-${LDNS_VERSION}.tar.gz ldns.tar.gz
 
